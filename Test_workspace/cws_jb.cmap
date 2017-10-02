@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cSpace dim="2">
+   <info> This workspace was created by Jose Barreiros, Phd student, Systems Engineering, Cornell University. Based on the work of Ahmad Abbadi, Brno University of Technology </info>
+   <Axes xlim="0  10" ylim="0  10"/>
+   <cells>
+      <cell type="poly">
+          <vertices>
+            <vertex x="2.0" y="8.5"/>
+            <vertex x="1.0" y="7.5"/>
+            <vertex x="0.0" y="10.0"/>
+          </vertices>
+      </cell>
+      <cell type="poly">
+          <vertices>
+            <vertex x="2.0" y="8.5"/>
+            <vertex x="10.0" y="10.0"/>
+            <vertex x="0.0" y="10.0"/>
+          </vertices>
+      </cell>
+      <cell type="poly">
+          <vertices>
+            <vertex x="0.0" y="10.0"/>
+            <vertex x="1.0" y="7.5"/>
+            <vertex x="0.0" y="0.0"/>
+          </vertices>
+      </cell> 
+      <cell type="poly">
+          <vertices>
+            <vertex x="0.0" y="0.0"/>
+            <vertex x="1.0" y="7.5"/>
+            <vertex x="1.5" y="5.5"/>
+          </vertices>
+      </cell>    
+      <cell type="poly">
+          <vertices>
+            <vertex x="0.0" y="0.0"/>
+            <vertex x="3.0" y="5.5"/>
+            <vertex x="1.5" y="5.5"/>
+          </vertices>
+      </cell> 
+      <cell type="poly">
+          <vertices>
+            <vertex x="0.0" y="0.0"/>
+            <vertex x="3.0" y="5.5"/>
+            <vertex x="4.0" y="4.0"/>
+          </vertices>
+      </cell>  
+      <cell type="poly">
+          <vertices>
+            <vertex x="0.0" y="0.0"/>
+ 
+            <vertex x="4.0" y="4.0"/>
+            <vertex x="7.0" y="4.0"/>
+            <vertex x="10.0" y="0.0"/>
+          </vertices>
+      </cell> 
+      <cell type="poly">
+          <vertices>
+            <vertex x="10.0" y="0.0"/>
+            <vertex x="7.0" y="4.0"/>
+            <vertex x="9.0" y="5.0"/>
+            <vertex x="10.0" y="5.0"/>
+          </vertices>
+      </cell> 
+      <cell type="poly">
+          <vertices>
+            <vertex x="7.0" y="4.0"/>
+            <vertex x="9.0" y="5.0"/>
+            <vertex x="7.0" y="7.0"/>
+          </vertices>
+      </cell> 
+      <cell type="poly">
+          <vertices>
+            <vertex x="10.0" y="8.5"/>
+            <vertex x="9.0" y="5.0"/>
+            <vertex x="7.0" y="7.0"/>
+          </vertices>
+      </cell> 
+      <cell type="poly">
+          <vertices>
+            <vertex x="10.0" y="8.5"/>
+            <vertex x="10.0" y="10.0"/>
+            <vertex x="3.0" y="7.0"/>
+            <vertex x="7.0" y="7.0"/>
+
+          </vertices>
+      </cell> 
+
+      <cell type="poly">
+          <vertices>
+            <vertex x="10.0" y="10.0"/>
+            <vertex x="2.0" y="8.5"/>
+            <vertex x="2.0" y="7.0"/>
+            <vertex x="3.0" y="7.0"/>
+
+          </vertices>
+      </cell> 
+
+      <cell type="poly">
+          <vertices>
+            <vertex x="4.0" y="4.0"/>
+            <vertex x="3.0" y="5.5"/>
+
+            <vertex x="3.0" y="7.0"/>
+            <vertex x="5.0" y="7.0"/>
+
+          </vertices>
+      </cell> 
+
+   </cells>
+   <obstacles>
+      <obstacle type="poly">
+         <vertices>
+            <vertex x="2.0" y="8.5"/>
+            <vertex x="2.0" y="7.0"/>
+            <vertex x="3.0" y="7.0"/>
+            <vertex x="3.0" y="5.5"/>
+            <vertex x="1.5" y="5.5"/>
+            <vertex x="1.0" y="7.5"/>
+         </vertices>
+      </obstacle>
+      <obstacle type="poly">
+         <vertices>
+            <vertex x="5.0" y="7.0"/>
+            <vertex x="7.0" y="7.0"/>
+            <vertex x="7.0" y="4.0"/>
+            <vertex x="4.0" y="4.0"/>
+         </vertices>
+      </obstacle>
+      <obstacle type="poly">
+         <vertices>
+            <vertex x="10.0" y="8.5"/>
+            <vertex x="9.0" y="5.0"/>
+            <vertex x="10.0" y="5.0"/>
+         </vertices>
+      </obstacle>
+   </obstacles>
+   <pois>
+      <poi type=" q0:start">
+         <points>
+             <point x="0.5" y="7.5"/>
+         </points>
+      </poi>
+      <poi type=" qf:end">
+         <points>
+             <point x="9.5" y="2.5"/>
+         </points>
+      </poi>
+   </pois>
+</cSpace>
